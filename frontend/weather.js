@@ -133,7 +133,7 @@ form.addEventListener("submit", e => {
   }
 
   //ajax here  
-  const url = `http://localhost:5000/weather?q=${inputVal}`;
+  const url = `https://weather-app-fppo.onrender.com/weather?q=${inputVal}`;
   // For production: `https://your-flask-backend.onrender.com/weather?q=${inputVal}`;
 
   fetch(url)
